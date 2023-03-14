@@ -1,0 +1,122 @@
+:root {
+  --text-color: #434455;
+  --head-color: #2e2f42;
+  --button-text-color: #4d5ae5;
+  --dark-white: #f4f4fd;
+  --white-text: #ffffff;
+  --active-button-bg: #404bbf;
+}
+
+/* main styles, styles for p */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+}
+
+/* header styles */
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.logo.studio {
+  color: var(--head-color);
+}
+
+.logo.web {
+  color: var(--button-text-color);
+}
+
+/* address */
+.addess {
+  font-style: normal;
+}
+
+/* link styles */
+.link {
+  text-decoration: none;
+}
+
+/* ul */
+.ul {
+  list-style-type: none;
+}
+
+/* nav */
+.nav-text {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: var(--head-color);
+}
+
+.nav-text.addess {
+    font-weight: 400;
+    color: #434455;
+}
+
+
+/* h1-h3 styles */
+.hero-head {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1, 07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-text);
+}
+
+.main-head {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1,11;
+        letter-spacing: 0.02em;
+        color: var(--head-color);
+}
+
+.text-head {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1,2;
+        letter-spacing: 0.02em;
+        color: var(--head-color);
+}
+
+/* text add styles */
+.footer-text {
+    color: var(--dark-white);
+}
+
+/* hero button order service */
+.hero-button {
+    color: var(--white-text);
+    background-color: var(--button-text-color);
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--button-text-color);
+    background-color: var(--white-text);
+}
+
+.list-button {
+    color: var(--button-text-color);
+    background-color: var(--dark-white);
+    cursor: pointer;
+}
+
+.list-button:hover,
+.list-button:focus {
+color: var(--white-text);
+background-color: var(--active-button-bg);
+}
