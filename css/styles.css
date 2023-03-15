@@ -133,6 +133,10 @@ color: #404bbf;
   line-height: 1.5;
 }
 
+.text-color {
+  color: var(--text-color);
+}
+
 .footer-text {
     color: var(--dark-white);
 }
