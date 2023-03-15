@@ -15,7 +15,7 @@ body {
   color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -55,7 +55,7 @@ body {
 .nav-text {
     font-weight: 500;
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--head-color);
 }
@@ -68,7 +68,7 @@ body {
 .addess-text {
     font-weight: 400;
     font-size: 16px;
-      line-height: 1, 5;
+      line-height: 1.5;
       letter-spacing: 0.02em;
     color: var(--text-color);
 }
@@ -78,12 +78,17 @@ body {
 color: #404bbf;
 }
 
+/* hero-section styles */
+.hero-bg {
+  background-color: var(--head-color);
+}
+
 
 /* h1-h3 styles */
 .hero-head {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1, 07;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-text);
@@ -92,7 +97,7 @@ color: #404bbf;
 .main-head {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1,11;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: var(--head-color);
 }
@@ -100,7 +105,7 @@ color: #404bbf;
 .text-head {
     font-weight: 500;
         font-size: 20px;
-        line-height: 1,2;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--head-color);
 }
@@ -114,12 +119,17 @@ color: #404bbf;
 .hero-button {
     color: var(--white-text);
     background-color: var(--button-text-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    color: var(--button-text-color);
+    color: #404BBF;
     background-color: var(--white-text);
 }
 
