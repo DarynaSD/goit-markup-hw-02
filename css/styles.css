@@ -78,11 +78,18 @@ body {
 color: #404bbf;
 }
 
-/* hero-section styles */
+/* bg styles */
 .hero-bg {
   background-color: var(--head-color);
 }
 
+.section-bg {
+  background-color: #F4F4FD;
+}
+
+.list-bg {
+  background-color: #FFFFFF;
+}
 
 /* h1-h3 styles */
 .hero-head {
@@ -97,8 +104,10 @@ color: #404bbf;
 .main-head {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.2;
+        line-height: 1.11;
+        text-align: center;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
         color: var(--head-color);
 }
 
