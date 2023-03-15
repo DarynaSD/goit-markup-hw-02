@@ -35,6 +35,11 @@ body {
   color: var(--head-color);
 }
 
+.logo-footer {
+color: #f4f4fd;
+}
+
+
 
 /* address */
 .addess {
