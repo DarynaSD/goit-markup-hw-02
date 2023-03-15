@@ -22,18 +22,19 @@ body {
 /* header styles */
 
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-}
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-text-color);
+  }
 
 .logo.studio {
   color: var(--head-color);
 }
 
-.logo.web {
-  color: var(--button-text-color);
-}
 
 /* address */
 .addess {
