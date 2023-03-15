@@ -47,7 +47,7 @@ body {
 }
 
 /* ul */
-.ul {
+.list {
   list-style-type: none;
 }
 
@@ -60,9 +60,22 @@ body {
         color: var(--head-color);
 }
 
-.nav-text.addess {
+.nav-text:hover,
+.nav-text:focus {
+  color: #404bbf;
+}
+
+.addess-text {
     font-weight: 400;
-    color: #434455;
+    font-size: 16px;
+      line-height: 1, 5;
+      letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.addess-text:hover,
+.addess-text:focus {
+color: #404bbf;
 }
 
 
