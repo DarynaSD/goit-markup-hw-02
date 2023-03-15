@@ -91,6 +91,10 @@ color: #404bbf;
   background-color: #FFFFFF;
 }
 
+.footer-bg {
+  background-color: var(--head-color);
+}
+
 /* h1-h3 styles */
 .hero-head {
   font-weight: 700;
